@@ -85,6 +85,17 @@
   height: 149px;
 }
 
+#footer div {
+  background-color: black;
+}
+#footer img {
+  background-color: black;
+  margin-left: 45%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 10%;
+}
+
 /* Small Screen -------------------------------------------------------------------------------*/
 @media all and (max-width: 767px) {
   .comingSoonPage div img {
@@ -111,5 +122,9 @@
     width: 80%;
     left: 10%;
     bottom: 20px;
+  }
+  #footer img {
+    width: 20%;
+    margin-left: 40%;
   }
 }
