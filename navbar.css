@@ -21,7 +21,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  font-weight: 600;
+  color: rgb(254, 172, 90);
 }
 
 .menu {
@@ -144,8 +144,7 @@ img.brandLogo {
   }
 
   .item a:hover {
-    color: black;
-    font-weight: 700;
+    color: rgb(254, 172, 90);
     text-decoration: none;
   }
 
