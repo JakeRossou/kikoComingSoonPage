@@ -49,10 +49,10 @@
   z-index: 2;
 }
 .comingSoonPage div img {
-  width: 14%;
+  width: 20%;
   position: absolute;
   bottom: 40%;
-  right: 43%;
+  right: 40%;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0);
 }
@@ -99,8 +99,8 @@
 /* Small Screen -------------------------------------------------------------------------------*/
 @media all and (max-width: 767px) {
   .comingSoonPage div img {
-    width: 50%;
-    left: 25%;
+    width: 80%;
+    left: 10%;
   }
 
   .comingSoonPage div h1 {
