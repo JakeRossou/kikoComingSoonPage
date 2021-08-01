@@ -99,8 +99,8 @@
 /* Small Screen -------------------------------------------------------------------------------*/
 @media all and (max-width: 767px) {
   .comingSoonPage div img {
-    width: 80%;
-    left: 10%;
+    width: 60%;
+    left: 20%;
   }
 
   .comingSoonPage div h1 {
