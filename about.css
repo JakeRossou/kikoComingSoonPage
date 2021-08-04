@@ -1,6 +1,6 @@
 #about {
   background-color: white;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   padding: 40px 0px;
@@ -9,7 +9,6 @@
 #about div {
   background-color: white;
   text-align: center;
-  padding: 20px 40px;
 }
 
 #about div p {
@@ -41,10 +40,38 @@
   height: 149px;
 }
 
+#about div.aboutText {
+  width: 60%;
+  padding: 20px 0px 20px 40px;
+}
+#about div.aboutImage {
+  width: 40%;
+  padding: 20px 40px 20px 0px;
+}
+
+#about div.aboutImage img {
+  background-color: white;
+}
+
 /* Small Screen -------------------------------------------------------------------------------*/
 @media all and (max-width: 767px) {
   #about div p {
     font-size: 12px;
     letter-spacing: 6px;
+  }
+
+  #about {
+    display: block;
+  }
+
+  #about div.aboutText {
+    width: 100vw;
+    display: block;
+    padding: 60px 20px 0px 20px;
+  }
+  #about div.aboutImage {
+    width: 100vw;
+    display: block;
+    padding: 20px 20px;
   }
 }

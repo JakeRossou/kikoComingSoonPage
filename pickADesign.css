@@ -53,7 +53,7 @@ img {
   #shareButtonMobile {
     display: flex;
     position: absolute;
-    top: 304vh;
+    top: 320vh;
     left: 25%;
     justify-content: center;
     width: 50%;
